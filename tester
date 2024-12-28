@@ -1,0 +1,7 @@
+game:GetService("ReplicatedStorage").Packages.Knit.Services.CustomizationService.RE.Customize:FireServer(unpack(args))
+end)
+
+Section:CreateButton("Get Time Stop effect", function()
+local args = {
+    [1] = "GoalEffects",
+    [2] = "Time Stop"
